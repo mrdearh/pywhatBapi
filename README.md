@@ -9,4 +9,4 @@ PyWhatB_api is a Python library for Sending whatsapp messages to many unsaved mo
 3. Then as soon as the program runs the specific message will be sent to specific number as you specified in the csv file.
 
 ### Note
-As this program uses Whatsapp Api to send messages, make sure you have whatsapp desktop app on your pc and once you make whatsapp desktop app as default to open whatsapp links then the messages will be sent one by one.
+As this program uses Whatsapp Api to send messages, make sure you have whatsapp desktop app on your pc and once you make whatsapp desktop app as default app in your pc to open whatsapp links  then the messages will be sent one by one automatically.
