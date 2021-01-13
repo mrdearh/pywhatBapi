@@ -7,15 +7,15 @@ def readme():
     return README
 
 setup(
-    name = 'pywhatB_api',
+    name = 'pywhatBapi',
     packages = setuptools.find_packages(),
     version = '1.0',
     license='MIT',
-    description = 'PyWhatB_api is a Python library for Sending whatsapp messages to many unsaved mobile numbers, using a csv file as a Database, the mobile numbers and specif messages can stored in the csv file.',
+    description = 'PyWhatBapi is a Python library for Sending whatsapp messages to many unsaved mobile numbers, using a csv file as a Database, the mobile numbers and specif messages can stored in the csv file.',
     author = 'Sai Jeevan Puchakayala',
     author_email = 'saijeevan2002@gmail.com',
-    url = 'https://github.com/SaiJeevanPuchakayala/pywhatB_api',
-    download_url = 'https://github.com/SaiJeevanPuchakayala/pywhatB_api.git',
+    url = 'https://github.com/SaiJeevanPuchakayala/pywhatBapi',
+    download_url = 'https://github.com/SaiJeevanPuchakayala/pywhatBapi.git',
     keywords = ['send_bulkwhatmsg'],
     install_requires=[
           'pyautogui',
