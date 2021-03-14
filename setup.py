@@ -1,4 +1,5 @@
-from setuptools import setup
+from distutils.core import setup
+import setuptools
 
 def readme():
     with open(r'README.md') as f:
