@@ -1,0 +1,5 @@
+Up to date versions of below libraries is required.
+pyautogui
+webbrowser
+time
+pandas
