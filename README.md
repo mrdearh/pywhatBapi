@@ -8,6 +8,7 @@ PyWhatBapi is a Python library for Sending whatsapp messages to many unsaved mob
 ### Usage
 
 Import the library using the following command.
+
 `import pywhatBapi`
 1. Store all the mobile numbers and specific messages in the csv file. Format is like   ![csv_image](images/csv_image.png)        
 2. Pass the csv file name in the function `sendwhatmsgs('your_csv_filename.csv')`.
