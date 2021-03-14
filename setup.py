@@ -16,7 +16,7 @@ setup(
     author_email = 'saijeevan2002@gmail.com',
     url = 'https://github.com/SaiJeevanPuchakayala/pywhatBapi',
     download_url = 'https://github.com/SaiJeevanPuchakayala/pywhatBapi.git',
-    keywords = ['send_bulkwhatmsg'],
+    keywords = ['sendwhatmsgs'],
     install_requires=[
           'pyautogui',
           'time',
