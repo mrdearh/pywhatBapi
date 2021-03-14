@@ -1,4 +1,4 @@
-import setuptools
+from setuptools import setup
 
 def readme():
     with open(r'README.md') as f:
