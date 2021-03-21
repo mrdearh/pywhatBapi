@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='pywhatBapi',
-    version="0.0.1",
+    version="0.0.2",
     author='Sai Jeevan Puchakayala',
     author_email='saijeevan2002@gmail.com',
-    description='PyWhatBapi is a Python library for Sending whatsapp messages to many unsaved mobile numbers, using a csv file as a Database, the mobile numbers and specif messages can stored in the csv file.',
+    description='PyWhatBapi is a Python library for Sending whatsapp messages to many unsaved mobile numbers, using a csv file as a Database. The mobile numbers and specific messages can stored in the csv file.',
     long_description=long_description,
     long_description_content_type="text/markdown",
     url='https://github.com/SaiJeevanPuchakayala',
