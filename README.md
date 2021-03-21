@@ -1,6 +1,6 @@
-![title](images/title.png)
+![title](https://raw.githubusercontent.com/SaiJeevanPuchakayala/pywhatBapi/main/images/title.png)
 ## Project Description
-pywhatBapi is a Python library for Sending whatsapp messages to many unsaved mobile numbers, using a csv file as a Database, the mobile numbers and specif messages can stored in the csv file.
+pywhatBapi is a Python library for Sending whatsapp messages to many unsaved mobile numbers, using a csv file as a Database, the mobile numbers and specific messages can stored in the csv file.
 
 ## Installation
 `pip install pywhatBapi`
@@ -10,7 +10,7 @@ pywhatBapi is a Python library for Sending whatsapp messages to many unsaved mob
 Import the library using the following command.
 
 `import pywhatBapi`
-1. Store all the mobile numbers and specific messages in the csv file. Format is like   ![csv_image](images/csv_image.png)        
+1. Store all the mobile numbers and specific messages in the csv file. Format is like   ![csv_image](https://raw.githubusercontent.com/SaiJeevanPuchakayala/pywhatBapi/main/images/csv_image.png)        
 2. Pass the csv file name in the function `sendwhatmsgs('your_csv_filename.csv')`.
 3. Then as soon as the program runs the specific message will be sent to specific number as you specified in the csv file.
 
