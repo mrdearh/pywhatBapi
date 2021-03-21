@@ -1,39 +1,34 @@
-from distutils.core import setup
 import setuptools
 
-def readme():
-    with open(r'README.md') as f:
-        README = f.read()
-    return README
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
-setup(
-    name = 'pywhatBapi',
-    packages = setuptools.find_packages(),
-    version = '1.0',
-    license='MIT',
-    description = 'PyWhatBapi is a Python library for Sending whatsapp messages to many unsaved mobile numbers, using a csv file as a Database, the mobile numbers and specif messages can stored in the csv file.',
-    author = 'Sai Jeevan Puchakayala',
-    author_email = 'saijeevan2002@gmail.com',
-    url = 'https://github.com/SaiJeevanPuchakayala',
-    download_url = 'https://github.com/SaiJeevanPuchakayala/pywhatBapi.git',
-    keywords = ['sendwhatmsgs'],
-    install_requires=[
-          'pyautogui',
-          'time',
-          'pandas',
-          'webbrowser',
-        ],
-    include_package_data=True,
-    long_description=readme(),
+setuptools.setup(
+    name='pywhatBapi',
+    version="0.0.1",
+    author='Sai Jeevan Puchakayala',
+    author_email='saijeevan2002@gmail.com',
+    description='PyWhatBapi is a Python library for Sending whatsapp messages to many unsaved mobile numbers, using a csv file as a Database, the mobile numbers and specif messages can stored in the csv file.',
+    long_description=long_description,
     long_description_content_type="text/markdown",
+    url='https://github.com/SaiJeevanPuchakayala',
+    project_urls={
+        "Bug Tracker": "https://github.com/SaiJeevanPuchakayala/pywhatBapi/issues",
+    },
     classifiers=[
-    'Development Status :: 1 - Alpha',
-    'Intended Audience :: Developers',
-    'Topic :: Software Development :: Build Tools',
-    'License :: OSI Approved :: MIT License',
-    'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.4',
-    'Programming Language :: Python :: 3.5',
-    'Programming Language :: Python :: 3.6',
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
     ],
+
+    install_requires=[
+        'pyautogui',
+        'time',
+        'pandas',
+        'webbrowser',
+      ],
+
+    package_dir={"": "src"},
+    packages=setuptools.find_packages(where="src"),
+    python_requires=">=3.6",
 )
